@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Allerta&family=Anton&family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  width: 1530px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.header__inner .logo-img {
+  width: 73px;
+  height: 27px;
+}
+
+.header__inner nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.header__inner nav ul li {
+  display: inline;
+}
+
+.header__inner nav ul li a {
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.header__inner .contact-info a {
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding: 12px 24px;
+  background: #925ff0;
+}
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 140px;
+}
+
+.hero-info {
+  width: 660px;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero__inner .hero-text h1 {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 90%;
+  letter-spacing: -3%;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.hero__inner .hero-text {
+  margin-bottom: 70px;
+}
+
+.hero__inner .hero-text span {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 114px;
+  line-height: 90%;
+  letter-spacing: -3%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 112, 154, 1) 0%,
+    rgba(254, 225, 64, 1) 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-info {
+  margin-right: 180px;
+}
+
+.hero-info .cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 660px;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.hero-info .cards .card {
+  width: 40px;
+  height: 40px;
+}
+
+.hero-info .download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-info .download-btn a {
+  font-family: "Allerta";
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 100%;
+  color: #fff;
+  background: #292929;
+  padding: 16px 190px;
+  display: inline-flex; /* Додаємо flexbox для вирівнювання */
+  align-items: center; /* Вирівнюємо по вертикалі */
+}
+.hero-info .download-btn a img {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px; /* Додаємо невеликий відступ між текстом і іконкою */
+  vertical-align: middle; /* Вирівнюємо по вертикалі */
+}
+.portal-icon {
+  position: absolute;
+  top: 35px;
+  right: 710px;
+}
+
+.hero-image img {
+  width: 694px;
+  height: 778px;
+}
