@@ -134,14 +134,14 @@ body {
   color: #fff;
   background: #292929;
   padding: 16px 190px;
-  display: inline-flex; /* Додаємо flexbox для вирівнювання */
-  align-items: center; /* Вирівнюємо по вертикалі */
+  display: inline-flex;
+  align-items: center;
 }
 .hero-info .download-btn a img {
   width: 18px;
   height: 18px;
-  margin-left: 10px; /* Додаємо невеликий відступ між текстом і іконкою */
-  vertical-align: middle; /* Вирівнюємо по вертикалі */
+  margin-left: 5px;
+  vertical-align: middle;
 }
 .portal-icon {
   position: absolute;
@@ -152,4 +152,177 @@ body {
 .hero-image img {
   width: 694px;
   height: 778px;
+}
+
+.numbers-info {
+  margin-bottom: 210px;
+}
+
+.numbers-info__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #0b0b0b;
+  border: 1px solid #646464;
+  padding: 82px 100px;
+  gap: 70px;
+  border-radius: 25px;
+}
+
+.numbers-info__inner .star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers-info__inner .star-container img {
+  width: 80px;
+  height: 80px;
+}
+
+.numbers-info__inner .first-card {
+  width: 315px;
+  height: 208px;
+}
+
+.numbers-info__inner .second-card {
+  width: 387px;
+  height: 208px;
+}
+
+.numbers-info__inner .third-card {
+  width: 190px;
+  height: 208px;
+}
+
+.numbers-info__inner .first-card span,
+.numbers-info__inner .second-card span,
+.numbers-info__inner .third-card span {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 90%;
+  color: #c8fec7;
+}
+
+.numbers-info__inner .first-card p,
+.numbers-info__inner .second-card p,
+.numbers-info__inner .third-card p {
+  font-family: "Archivo Black";
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  color: #c8fec7;
+}
+
+.portfolio__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__inner .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.portfolio__inner .cards .card {
+  width: calc((100% - 90px) / 4);
+  height: 420px;
+  background: #0b0b0b;
+  border: 1px solid #737373;
+  border-radius: 10px;
+}
+
+.portfolio__inner .cards .card img {
+  border-radius: 10px;
+  margin-bottom: 23px;
+}
+
+.portfolio .text-header {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.portfolio__inner .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.portfolio__inner .cards .card .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.portfolio__inner .cards .card h3 {
+  font-family: "Allerta";
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+  line-height: 100%;
+  letter-spacing: -5%;
+  margin-bottom: 21px;
+}
+
+.portfolio__inner .cards .card .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.portfolio__inner .cards .card .btns .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 24px;
+  background: #e9dffc;
+  padding: 5px 8px;
+  border: 1px solid #be9ff6;
+  border-radius: 12px;
+  margin-bottom: 23px;
+}
+
+.portfolio__inner .cards .card .btns .btn span {
+  font-family: "Allerta";
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  color: #784dc7;
+}
+
+.portfolio__inner .cards .card .card-container .figma-btn {
+  width: 100%;
+  background: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+}
+
+.portfolio__inner .cards .card .card-container .figma-btn a {
+  width: 100%;
+  font-family: "Allerta";
+  font-weight: 200;
+  font-size: 16px;
+  color: #fff;
+  line-height: 100%;
+  letter-spacing: -5%;
 }
