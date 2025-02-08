@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Allerta&family=Anton&family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "Gotham Black";
+  src: url("../../fonts/Gotham/gotham_black.otf");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../../fonts/Gotham/gotham_book.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +53,7 @@ body {
 }
 
 .header__inner nav ul li a {
-  font-family: "ABeeZee";
+  font-family: "Gotham";
   font-weight: 400;
   font-size: 20px;
   color: white;
@@ -209,13 +220,17 @@ body {
 .numbers-info__inner .first-card p,
 .numbers-info__inner .second-card p,
 .numbers-info__inner .third-card p {
-  font-family: "Archivo Black";
+  font-family: "Gotham Black";
   font-weight: 400;
   font-size: 33px;
   line-height: 100%;
   letter-spacing: -5%;
   color: #c8fec7;
 }
+
+/* .portfolio {
+  margin-bottom: 200px;
+} */
 
 .portfolio__inner {
   display: flex;
@@ -269,7 +284,7 @@ body {
 }
 
 .portfolio__inner .cards .card h3 {
-  font-family: "Allerta";
+  font-family: "Gotham";
   font-weight: 400;
   font-size: 28px;
   color: #fff;
@@ -325,4 +340,116 @@ body {
   color: #fff;
   line-height: 100%;
   letter-spacing: -5%;
+}
+
+.skills {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.skills__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills__inner .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills__inner .cards .card {
+  width: calc((100% - 20px) / 2);
+  height: 320px;
+  border: 1px solid #737373;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+}
+
+.skills__inner .cards .card h3 {
+  font-family: "Gotham Black";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.skills__inner .cards .card p {
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #fff;
+  height: 80px;
+  width: 425.5px;
+}
+
+.skills__inner .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills__inner .header-text {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.skills__inner .header-text h2 {
+  font-family: "Anton";
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.kaleb-words {
+  background-image: url("../../img/gradient-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+
+  padding: 147px 0;
+}
+
+.kaleb-words .kaleb__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kaleb__inner .kaleb-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kaleb__inner .kaleb-text h3 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 105%;
+  letter-spacing: -5%;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.kaleb__inner .kaleb-text p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 105%;
+  letter-spacing: -5%;
+  color: #fff;
+  margin-bottom: 60px;
 }
