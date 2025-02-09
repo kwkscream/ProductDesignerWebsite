@@ -453,3 +453,148 @@ body {
   color: #fff;
   margin-bottom: 60px;
 }
+
+.bottom {
+  padding-top: 200px;
+  padding-bottom: 230px;
+}
+
+.bottom__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .bottom__inner .cards .card .card-image img,
+.bottom__inner .cards .card-reverse .card-image img {
+  width: 762px;
+  height: 530px;
+} */
+
+.bottom__inner .cards .card .card-image .baby-img {
+  width: 746px;
+  height: 530px;
+  position: relative;
+  transform: translateX(20px);
+}
+
+.bottom__inner .cards .card-reverse .card-image .kid-img {
+  width: 794px;
+  height: 531px;
+  position: relative;
+  transform: translateX(-20.5px);
+}
+
+.bottom__inner .cards .card .card-image .man-img {
+  width: 747px;
+  height: 551px;
+  position: relative;
+  transform: translateX(28px);
+}
+
+.bottom__inner .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bottom__inner .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.bottom__inner .cards .card-reverse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 72px;
+}
+
+.bottom__inner .cards .card .card-text .bottom-header-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 38px;
+  margin-bottom: 76px;
+  position: relative;
+  transform: translateY(-20px);
+}
+
+.bottom__inner .cards .card .card-text .bottom-header-text h2 {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.bottom__inner .cards .card .card-text .card-desc p {
+  margin-bottom: 66px;
+}
+
+.bottom__inner .cards .card .card-text .card-desc p,
+.bottom__inner .cards .card .card-text p,
+.bottom__inner .cards .card-reverse .card-text p {
+  font-family: "Gotham Black";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  color: #fff;
+}
+
+.bottom__inner .cards .card .card-text .card-desc .pink-yellow {
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    rgba(250, 112, 154, 1) 0%,
+    rgba(254, 225, 64, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bottom__inner .cards .card-reverse .card-text .green-blue {
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 250, 176, 1) 0%,
+    rgba(143, 211, 244, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bottom__inner .cards .card .card-text .purple-blue {
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 195, 252, 1) 0%,
+    rgba(142, 197, 252, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bottom__inner .cards .card .card-text .yellow-blue-red {
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    #ffe76a 0%,
+    #ffe76a 33%,
+    #65c8ff 33%,
+    #65c8ff 66%,
+    #ff0000 66%,
+    #ff0000 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
